@@ -1,0 +1,35 @@
+MVC est un design pattern nous permettant de normaliser l'architecture de nos applications/logiciels.
+
+MVC = Modèle Vue Controller.
+
+Cette architecture va nous permettre d'organiser notre code de cette façon :
+    1. Modèle (Echanges avec BDD - requêtes SQL/pdo...)
+    2. Vue (Affichage et présentation des données - HTML/CSS)
+    3. Controller (Traitements des données - PHP)
+
+
+par exemple : 
+    - Dans le modèle je fais une requête qui va chercher les produits de la BDD.
+    - Dans le Controller je fais des traitements des résultats de cette requête et décide de n'afficher que les jeans
+    - Dans la Vue je présente dans mon navigateur les données (issues de la requête SQL - modèle) traitées (par PHP - Controller)
+
+
+L'HTML n'est pas toléré dans le Modèle ni dans le Controller au même titre qu'on ne verra pas de traitement PHP dans la Vue (pas d'array, pas de boucle, etc).
+
+❗❗❗ Il ne s'agit pas d'une réelle architecture. PHP n'est pas prévu pour. On peut donc être obligé de déroger aux "règles" et de devoir mettre un peu de PHP dans la Vue (jamais d'HTML dans le Modèle ou le Controller cependant). C'est pour ça qu'on parle d'approche MVC plutôt que d'architecture MVC.
+
+
+
+Avantages 😁 :
+    - Pratique pour l'organisation du travail : chaque développeur pourra se concentrer sur les fichiers qui le concernent. 
+    - Pratique aussi pour la rapidité des mises à jours et évolutions, on sait où aller modifier les informations naturellement. 
+
+Inconvénients 😣 :
+    - Demande beaucoup de fichiers. Pas adapté pour un petit projet.
+    
+    - Le temps accordé à l’architecture peut ne pas être rentable pour le projet. (C'est une architecture qui se modélise, se réfléchit et ensuite prend du temps à mettre en place.)
+
+
+
+VOIR SCHEMAS POUR COMPRENDRE INTERACTIONS ENTRE LES ELEMENTS. 
+
