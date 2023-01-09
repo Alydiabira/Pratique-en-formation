@@ -26,9 +26,9 @@ L'application web devra disposé des fonctionnalitées suivantes:
  - **Connexion** - une page permettant à un utilisateur enregistré sur l'application web de se connecté via un formulaire (Champs: alias, password).
  - **Affichage profil** - une page affichant les information de l'utilisateur connecté.
  - **MàJ Profil** - une page permettant à l'utilisateur connecté de modifier ces informations personnels
- - **Liste des articles** - une page listant la totalité des articles présent en base de donnée
+👍🏿 - **Liste des articles** - une page listant la totalité des articles présent en base de donnée
  - **Créé un article** - Une page permettant de créé un article via un formulaire (Champs: title, excerpt, content, category, date, author)
- - **Afficher un article** Une page affichant un article
+ 👍🏿 - **Afficher un article** Une page affichant un article
  - **MàJ un article** - Une page permettant de modifier un article via un formulaire (Champs: title, excerpt, content, category, date)
  - **Supprimer un article** - Un bouton permettant de supprimer un article
 
