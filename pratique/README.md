@@ -8,21 +8,6 @@ Ce document vous fournira aussi quelques astuces et informations sur la manière
 
 ## Étapes
 
-* [Appréhendez les limites d'un code de débutant](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/apprehendez-limites-code-debutant)
-* [Isolez l'affichage du traitement PHP](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/isolez-affichage-traitement-php)
-* [Isolez l'accès aux données](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/isolez-acces-donnees)
-* [Soignez la cosmétique](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/soignez-cosmetique)
-* [Affichez des commentaires](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/affichez-commentaires)
-* [Créez un template de page](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/creez-template-page)
-* [Créez un routeur](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/creez-routeur)
-* [Ajoutez des commentaires](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/ajoutez-commentaires)
-* [Gérez les erreurs](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/gerez-erreurs)
-* [Structurez vos données](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/structurez-donnees)
-* [Donnez vie à vos structures](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/donnez-vie-structures)
-* [Tirez parti de la composition](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/tirez-parti-composition)
-* [Utilisez les namespaces](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/utilisez-namespaces)
-* [Modifiez un commentaire](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/modifiez-commentaire)
-* [Final](https://github.com/OpenClassrooms-Student-Center/4670706-architecture-mvc-php/tree/final)
 
 ## Installation
 
