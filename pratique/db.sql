@@ -1,38 +1,72 @@
--- Ce fichier sert à initialiser la base de données
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : localhost:8889
+-- Généré le : mar. 10 jan. 2023 à 08:53
+-- Version du serveur : 5.7.34
+-- Version de PHP : 8.0.8
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
 SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données : `DB`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `posts`
+--
 
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
   `content` text NOT NULL,
-  `creation_date` datetime NOT NULL
+  `creation_date` datetime NOT NULL,
+  `email` text NOT NULL,
+  `password` text NOT NULL,
+  `alias` varchar(25) NOT NULL,
+  `bio` varchar(3000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `posts` (`id`, `title`, `content`, `creation_date`) VALUES
-(1, 'Bienvenue sur le blog de l\'AVBN !', 'Je vous souhaite à toutes et à tous la bienvenue sur le blog qui parlera de... l\'Association de VolleyBall de Nuelly !', '2022-02-17 16:28:41'),
-(2, 'L\'AVBN à la conquête du monde !', 'C\'est officiel, le club a annoncé à la radio hier soir \"J\'ai l\'intention de conquérir le monde !\".\r\nIl a en outre précisé que le monde serait à sa botte en moins de temps qu\'il n\'en fallait pour dire \"Association de VolleyBall de Nuelly\". Pas dur, ceci dit entre nous...', '2022-02-17 16:28:42');
+--
+-- Déchargement des données de la table `posts`
+--
 
+INSERT INTO `posts` (`id`, `title`, `content`, `creation_date`, `email`, `password`, `alias`, `bio`) VALUES
+(1, 'Bienvenue sur le blog d\'Aly !', 'Je vous souhaite à toutes et à tous la bienvenue sur le blog qui parlera de...  !', '2022-02-17 16:28:41', '', '', '0', ''),
+(2, 'En formation continue en IDF !', ' + 100 répétitions quotidiennes.  Date de reprise mardi 21 déc. 2021', '2022-02-17 16:28:42', '', '', '0', '');
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `posts`
+--
 ALTER TABLE `posts`
   ADD PRIMARY KEY (`id`);
 
+--
+-- AUTO_INCREMENT pour les tables déchargées
+--
+
+--
+-- AUTO_INCREMENT pour la table `posts`
+--
 ALTER TABLE `posts`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+COMMIT;
 
-CREATE TABLE `comments` (
-    `id` int (11) NOT NULL,
-    `post_id` INT (11) NOT NULL,
-    `author` varchar(255) NOT NULL,
-    `comment` text NOT NULL,
-    `comment_date` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-INSERT INTO `comments` (`id`, `post_id`, `author`, `comment`, `comment_date`) VALUES
-(1, 1, 'Mathieu', 'Preum\'s', '2022-03-03 13:00:42'),
-(2, 1, 'Sam', 'Quelqu\'un a un avis là-dessus ? Je ne sais pas quoi en penser.', '2022-03-03 13:01:42');
-
-ALTER TABLE `comments`
-  ADD PRIMARY KEY (`id`);
-
-ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
