@@ -10,12 +10,12 @@
 
 
 <!-- Bootstrap Core CSS -->
-<link href="bootstrap.min.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+<link href="vendor/bootstrap.min.css" rel="stylesheet">
+<link href="vendor/style.css" rel="stylesheet">
 
 
 <!-- Theme CSS -->
-<link href="freelancer.min.css" rel="stylesheet">
+<link href="vendor/freelancer.min.css" rel="stylesheet">
 
 <!-- Custom Fonts -->
 <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
