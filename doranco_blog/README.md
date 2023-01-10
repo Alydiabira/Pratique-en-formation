@@ -7,17 +7,17 @@ La base de donnée se compose de 2 tables, ***Utilisateurs*** & ***Articles***.
 
 La table ***Utilisateurs*** est composé des colonnes suivantes:
 👍🏿 - **lastname** - contient entre 2 & 20 caractères
- - **firstname** - contient entre 2 & 20 caractères
- - **email**
- - **password** - doit être crypté
- - **alias** - contient entre 6 & 25 caractères
- - **bio** - contient au minimum 3000 caractères
+👍🏿 - **firstname** - contient entre 2 & 20 caractères
+👍🏿 - **email**
+👍🏿 - **password** - doit être crypté
+👍🏿 - **alias** - contient entre 6 & 25 caractères
+👍🏿 - **bio** - contient au minimum 3000 caractères
 
 La table ***Articles*** est composé des colonnes suivantes:
 👍🏿 - **title** - contient entre 50 & 255 caractères
- - **excerpt** - contient entre 50 & 2000 caractères
+👍🏿 - **excerpt** - contient entre 50 & 2000 caractères
 👍🏿 - **content** - contient au moins 10000 caractères
- - **category**
+👍🏿 - **category**
 👍🏿 - **date**
 👍🏿 - **author**
 
